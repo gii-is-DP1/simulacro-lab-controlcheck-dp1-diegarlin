@@ -19,6 +19,12 @@ INSERT INTO specialties VALUES (1, 'radiology');
 INSERT INTO specialties VALUES (2, 'surgery');
 INSERT INTO specialties VALUES (3, 'dentistry');
 
+INSERT INTO PRODUCT_TYPE(id, name) VALUES (1,'Accessories');
+INSERT INTO PRODUCT_TYPE(id, name) VALUES (2, 'Food');
+
+INSERT INTO products(id, name, price, p_type_id) VALUES (1, 'Wonderful dog collar', 17.25, 1);
+INSERT INTO products(id, name, price, p_type_id) VALUES (2, 'Super Kitty Cookies', 50.0, 2);
+
 INSERT INTO vet_specialties VALUES (2, 1);
 INSERT INTO vet_specialties VALUES (3, 2);
 INSERT INTO vet_specialties VALUES (3, 3);
